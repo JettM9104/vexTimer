@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A4A3AF102DCD6CEC00D986F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A3AEFA2DCD6CE500D986F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A3AF012DCD6CE500D986F1;
+			remoteInfo = vexTimer;
+		};
+		A4A3AF1A2DCD6CEC00D986F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A3AEFA2DCD6CE500D986F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A3AF012DCD6CE500D986F1;
+			remoteInfo = vexTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A3AF022DCD6CE500D986F1 /* vexTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vexTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3AF0F2DCD6CEC00D986F1 /* vexTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vexTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A3AF192DCD6CEC00D986F1 /* vexTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vexTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A4A3AF042DCD6CE500D986F1 /* vexTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = vexTimer;
+			sourceTree = "<group>";
+		};
+		A4A3AF122DCD6CEC00D986F1 /* vexTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = vexTimerTests;
+			sourceTree = "<group>";
+		};
+		A4A3AF1C2DCD6CEC00D986F1 /* vexTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = vexTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A3AEFF2DCD6CE500D986F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF0C2DCD6CEC00D986F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF162DCD6CEC00D986F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A3AEF92DCD6CE500D986F1 = {
+			isa = PBXGroup;
+			children = (
+				A4A3AF042DCD6CE500D986F1 /* vexTimer */,
+				A4A3AF122DCD6CEC00D986F1 /* vexTimerTests */,
+				A4A3AF1C2DCD6CEC00D986F1 /* vexTimerUITests */,
+				A4A3AF032DCD6CE500D986F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A3AF032DCD6CE500D986F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A3AF022DCD6CE500D986F1 /* vexTimer.app */,
+				A4A3AF0F2DCD6CEC00D986F1 /* vexTimerTests.xctest */,
+				A4A3AF192DCD6CEC00D986F1 /* vexTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A3AF012DCD6CE500D986F1 /* vexTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3AF232DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimer" */;
+			buildPhases = (
+				A4A3AEFE2DCD6CE500D986F1 /* Sources */,
+				A4A3AEFF2DCD6CE500D986F1 /* Frameworks */,
+				A4A3AF002DCD6CE500D986F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A4A3AF042DCD6CE500D986F1 /* vexTimer */,
+			);
+			name = vexTimer;
+			packageProductDependencies = (
+			);
+			productName = vexTimer;
+			productReference = A4A3AF022DCD6CE500D986F1 /* vexTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A3AF0E2DCD6CEC00D986F1 /* vexTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3AF262DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimerTests" */;
+			buildPhases = (
+				A4A3AF0B2DCD6CEC00D986F1 /* Sources */,
+				A4A3AF0C2DCD6CEC00D986F1 /* Frameworks */,
+				A4A3AF0D2DCD6CEC00D986F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A3AF112DCD6CEC00D986F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4A3AF122DCD6CEC00D986F1 /* vexTimerTests */,
+			);
+			name = vexTimerTests;
+			packageProductDependencies = (
+			);
+			productName = vexTimerTests;
+			productReference = A4A3AF0F2DCD6CEC00D986F1 /* vexTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4A3AF182DCD6CEC00D986F1 /* vexTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A3AF292DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimerUITests" */;
+			buildPhases = (
+				A4A3AF152DCD6CEC00D986F1 /* Sources */,
+				A4A3AF162DCD6CEC00D986F1 /* Frameworks */,
+				A4A3AF172DCD6CEC00D986F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A3AF1B2DCD6CEC00D986F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4A3AF1C2DCD6CEC00D986F1 /* vexTimerUITests */,
+			);
+			name = vexTimerUITests;
+			packageProductDependencies = (
+			);
+			productName = vexTimerUITests;
+			productReference = A4A3AF192DCD6CEC00D986F1 /* vexTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A3AEFA2DCD6CE500D986F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A4A3AF012DCD6CE500D986F1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A4A3AF0E2DCD6CEC00D986F1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A4A3AF012DCD6CE500D986F1;
+					};
+					A4A3AF182DCD6CEC00D986F1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A4A3AF012DCD6CE500D986F1;
+					};
+				};
+			};
+			buildConfigurationList = A4A3AEFD2DCD6CE500D986F1 /* Build configuration list for PBXProject "vexTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A3AEF92DCD6CE500D986F1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4A3AF032DCD6CE500D986F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A3AF012DCD6CE500D986F1 /* vexTimer */,
+				A4A3AF0E2DCD6CEC00D986F1 /* vexTimerTests */,
+				A4A3AF182DCD6CEC00D986F1 /* vexTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A3AF002DCD6CE500D986F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF0D2DCD6CEC00D986F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF172DCD6CEC00D986F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A3AEFE2DCD6CE500D986F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF0B2DCD6CEC00D986F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A3AF152DCD6CEC00D986F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A3AF112DCD6CEC00D986F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A3AF012DCD6CE500D986F1 /* vexTimer */;
+			targetProxy = A4A3AF102DCD6CEC00D986F1 /* PBXContainerItemProxy */;
+		};
+		A4A3AF1B2DCD6CEC00D986F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A3AF012DCD6CE500D986F1 /* vexTimer */;
+			targetProxy = A4A3AF1A2DCD6CEC00D986F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4A3AF212DCD6CEC00D986F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4A3AF222DCD6CEC00D986F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A3AF242DCD6CEC00D986F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4A3AF252DCD6CEC00D986F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4A3AF272DCD6CEC00D986F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vexTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vexTimer";
+			};
+			name = Debug;
+		};
+		A4A3AF282DCD6CEC00D986F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vexTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vexTimer";
+			};
+			name = Release;
+		};
+		A4A3AF2A2DCD6CEC00D986F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vexTimer;
+			};
+			name = Debug;
+		};
+		A4A3AF2B2DCD6CEC00D986F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXD6JP78F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jett-Mu.vexTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vexTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A3AEFD2DCD6CE500D986F1 /* Build configuration list for PBXProject "vexTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3AF212DCD6CEC00D986F1 /* Debug */,
+				A4A3AF222DCD6CEC00D986F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3AF232DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3AF242DCD6CEC00D986F1 /* Debug */,
+				A4A3AF252DCD6CEC00D986F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3AF262DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3AF272DCD6CEC00D986F1 /* Debug */,
+				A4A3AF282DCD6CEC00D986F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A3AF292DCD6CEC00D986F1 /* Build configuration list for PBXNativeTarget "vexTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A3AF2A2DCD6CEC00D986F1 /* Debug */,
+				A4A3AF2B2DCD6CEC00D986F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A3AEFA2DCD6CE500D986F1 /* Project object */;
+}

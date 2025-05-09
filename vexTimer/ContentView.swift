@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text("\(timeFormatted(timeRemaining))")
-                .font(.system(size: 60))
+                .font(.system(size: 120))
 
             HStack(spacing: 30) {
                 Button(action: startTimer) {

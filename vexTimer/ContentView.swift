@@ -12,8 +12,12 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("\(timeFormatted(timeRemaining))")
-                .font(.system(size: 120))
+            GeometryReader { geometry in
+                Text("\(timeFormatted(timeRemaining))")
+                    .font(.system(size: geometry.size.width > geometry.size.height ? 220 : 120))
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .multilineTextAlignment(.center)
+            }
 
             HStack(spacing: 30) {
                 Button(action: startTimer) {

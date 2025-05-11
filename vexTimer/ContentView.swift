@@ -41,7 +41,7 @@ struct ContentView: View {
                 }
             }
 
-            Stepper("Set Timer: \(initialTime) sec", value: $initialTime, in: 10...600, step: 5)
+            Stepper("Set Timer: \(initialTime) sec", value: $initialTime, in: 5...600, step: 5)
         }
         .padding()
     }
